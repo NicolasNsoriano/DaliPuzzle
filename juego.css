@@ -1,0 +1,30 @@
+#juego{
+  width: 600px;
+  height: 600px;
+  position: relative;
+  border: solid 5px , rgb(0, 91,91 );
+  background-color: rgba(12,123,65,0.7);
+}
+
+#mensaje {
+  
+  display: none;
+  position: absolute;
+  background-color: rgba(12,123,65,0.7);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding-top: 15%;
+  text-align: center;
+  font-size: 150px;
+}
+
+.pieza{
+  outline: 2px #73afe4 solid;
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+  position: absolute;
+  transition: all .1s ease-in-out;
+}
